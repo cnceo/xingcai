@@ -30,7 +30,7 @@
 
 <table class="topName" width="100%"><tbody><tr><td>
         <div class="bg clearfix">
-        	<div id="siderbar">
+            <div id="siderbar">
                 <ul class="list clearfix">
                     <li class=""><a href="/index.php/cash/recharge" >在线充值</a></li>
 					<li class="current"><a href="/index.php/cash/recharge2">网银手动充值</a></li>

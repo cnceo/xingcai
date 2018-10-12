@@ -44,7 +44,7 @@
 <div class="recharege-leibie" id="point">
 <?php
 			$set=$this->getSystemSettings();
-				$sql="select * from {$this->prename}bank_list b, {$this->prename}sysadmin_bank m where m.admin=1 and m.enable=1 and b.isDelete=0 and b.id=m.bankId and b.id not in(1,2,4,6,12,20,21)";
+				$sql="select * from {$this->prename}bank_list b, {$this->prename}sysadmin_bank m where m.admin=1 and m.enable=1 and b.isDelete=0 and b.id=m.bankId and b.id not in(1,2,4,6,12,20,21,23)";
 				$banks=$this->getRows($sql);	
 				if($banks){
 				if($this->user['coinPassword']){
